@@ -10,12 +10,17 @@
     margin: 0;
     scroll-behavior: smooth;
   }
+
+p{
+  color:#A3E4D7;
+}
+
   .header{
     height: 11vh;
     width: 100%;
   }
   .container{
-    background-color: #F1C40F;
+    background-color: #101820FF;
     width: 100%;
     
   }
@@ -43,7 +48,7 @@
     font-family: 'Permanent Marker', cursive;
     font-size: 40px;
     padding-left: 1rem;
-    color: #273746;
+    color: wheat;
     font-weight: bold;
     
   }
@@ -51,17 +56,17 @@
     background: #273746;
   }
   li a{
-    background-color: #F1C40F;
-    color: #273746;
+    background-color: #101820FF;
+    color: snow;
     font-size: 15px;
     font-weight: 600;
   }
   li a:hover{
-    background-color: #F1C40F !important;
+    background-color: white !important;
     font-weight: bolder;
   }
   nav{
-    background: #F1C40F;
+    background: #101820FF;
     height: 80px;
     
     
@@ -72,10 +77,12 @@
   /* Home section starts */
   .hero-content{
     height: 90vh;
-    background-color: #A3E4D7 ;
+    background-color: #273746 ;
+    color:#FEE715FF;
     padding: 3rem;
     
 }
+
 .text-center{
   padding-top: 10rem;
 }
@@ -91,8 +98,6 @@
     }
 }
 
-
-  
   .home{
     background-image: url(hero.png);
     height: 100vh;
@@ -128,7 +133,7 @@
   }
   #about {
     height: 70vh;
-    background-color: #9ae4d5;
+    background-color: #00203FFF;
     background-size: cover;
     background-position: top center;
    	position: relative;
@@ -173,7 +178,7 @@
   
 /* Table starts */ 
   .tab{
-    background-color: #A3E4D7 ;
+    background-color: #273746 ;
     padding-top: 4rem;
   }
   .table-container{
@@ -186,11 +191,13 @@
     background-color: rgb(44, 42, 42);
     color: rgb(223, 156, 11);
   }
-  .my-info{
-    
+  .my-info{   
     padding-bottom: 6rem;
-    background-color: #A3E4D7 ;
+    background-color: #273746 ;
+   color: bisque;
   }
+
+
   .btns{
     padding-top: 2.5rem;
   }
@@ -202,7 +209,6 @@
     background-color: rgb(236, 33, 74)!important;
     color: #F0FDF4!important;
     margin-left: 5px;
-    padding: 0.75rem;
     transition: ease-in-out 0.5s;
     
 }
@@ -214,8 +220,8 @@
 
 /* Footer starts */
 footer{
-  background-color: #F1C40F;
-  color: #273746;
+  background-color: #101820FF;
+  color: darkseagreen;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
@@ -228,4 +234,13 @@ footer{
 ul#cnt li {
   display:inline-block;
 }
+
+.social:hover{
+  background-color: transparent !important;
+}
+
+footer img:hover{
+   background-color: transparent !important;
+}
+
 /* Footer ends */
