@@ -11,10 +11,6 @@
     scroll-behavior: smooth;
   }
 
-p{
-  color:#A3E4D7;
-}
-
   .header{
     height: 11vh;
     width: 100%;
@@ -142,11 +138,15 @@ p{
 #about h1{
 	font-size: 3.2rem;
 	font-weight: 300;
-	color: var(--darkgray);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
 	text-align: center;
+  color: whitesmoke
+}
+
+#about p{
+  color:#A3E4D7;
 }
 
 #about .about {
@@ -196,7 +196,6 @@ p{
     background-color: #273746 ;
    color: bisque;
   }
-
 
   .btns{
     padding-top: 2.5rem;
